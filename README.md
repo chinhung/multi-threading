@@ -1,6 +1,7 @@
 # Multi-Threading
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/chinhung/pointwave/blob/master/LICENSE)
+[![Java CI with Gradle](https://github.com/chinhung/multi-threading/actions/workflows/gradle.yml/badge.svg)](https://github.com/chinhung/multi-threading/actions/workflows/gradle.yml)
 
 This repository contains practical examples about Java multi-threading.
 
