@@ -1,18 +1,10 @@
 package race_condition.counter.not_synchronized;
 
-public class Counter {
+public interface Counter {
 
-    private int number = 0;
+    void increment();
 
-    public void increment() {
-        number++;
-    }
+    void decrement();
 
-    public void decrement() {
-        number--;
-    }
-
-    public int getValue() {
-        return number;
-    }
+    int getValue();
 }
