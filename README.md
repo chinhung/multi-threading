@@ -1,11 +1,8 @@
 # Multi-Threading
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/chinhung/pointwave/blob/master/LICENSE)
-[![Java CI with Gradle](https://github.com/chinhung/multi-threading/actions/workflows/gradle.yml/badge.svg)](https://github.com/chinhung/multi-threading/actions/workflows/gradle.yml)
 
 This repository contains practical examples about Java multi-threading.
-
-> Race conditions will not be reproduced in GitHub Actions workflow runs. The reason probably is that even though there were many thread objects in the source code, only one real thread is used in the workflow run because this project is under free plan. Please clone this repository and execute the test command manually: `./gradlew test`. Once you have done, the race conditions will be reproduced and the test cases will pass. 
 
 ## Examples
 
@@ -13,6 +10,14 @@ This repository is developing and will be up-to-date. The following list shows t
 
 - Race Condition
   - counter
+  
+## Unit Tests
+
+Please execute the test command manually: 
+
+```
+./gradlew test
+```
   
 ## Test-Driven Development
 
