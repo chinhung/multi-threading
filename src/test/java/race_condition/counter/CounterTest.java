@@ -1,4 +1,4 @@
-package race_condition.counter.not_synchronized;
+package race_condition.counter;
 
 import org.junit.jupiter.api.Test;
 
