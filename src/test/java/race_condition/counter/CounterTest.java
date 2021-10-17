@@ -9,8 +9,8 @@ public class CounterTest {
     @Test
     public void shouldNotEqualToZero() throws InterruptedException {
         Counter counter = new NotSynchronizedCounter();
-        IncrementThread incrementThread = new IncrementThread(counter);
-        DecrementThread decrementThread = new DecrementThread(counter);
+        IncrementThread incrementThread = new IncrementThread(counter, 1000);
+        DecrementThread decrementThread = new DecrementThread(counter, 1000);
 
         incrementThread.start();
         decrementThread.start();
@@ -24,8 +24,8 @@ public class CounterTest {
     @Test
     public void shouldEqualToZero() throws InterruptedException {
         Counter counter = new SynchronizedCounter();
-        IncrementThread incrementThread = new IncrementThread(counter);
-        DecrementThread decrementThread = new DecrementThread(counter);
+        IncrementThread incrementThread = new IncrementThread(counter, 1000);
+        DecrementThread decrementThread = new DecrementThread(counter, 1000);
 
         incrementThread.start();
         decrementThread.start();
