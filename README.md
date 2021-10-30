@@ -10,6 +10,21 @@ This repository is developing and will be up-to-date. The following list shows t
 
 - Race Condition
   - counter
+
+Examples to be added to this repository are the following:
+
+- ExecutorService
+- ReentrantLock
+- DeadLock
+- Semaphores
+- Concurrent Collections
+- Dining Philosophers Problem
+- Students Library
+- Miner Game
+- Parallel Merge Sort
+- ...etc.
+
+Stay tuned!
   
 ## Unit Tests
 
