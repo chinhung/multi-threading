@@ -14,6 +14,7 @@ This repository is developing and will be up-to-date. The following list shows t
 Examples to be added to this repository are the following:
 
 - ExecutorService
+- CountDownLatch
 - ReentrantLock
 - DeadLock
 - Semaphores
